@@ -1,14 +1,14 @@
 import Link from 'next/link';
 import styles from './NavMenu.module.css';
 import Image from 'next/image';
-import NextLogo from '../public/next.svg';
+import NextSpaceLogo from '../public/next.svg';
 
 export default function NavMenu() {
   return (
     <nav className={styles.nav}>
       <Link href={'/'}>
         <Image
-          src={NextLogo} // Route of the image file
+          src={NextSpaceLogo}
           width={216}
           height={30}
           alt="NextSpace Logo"

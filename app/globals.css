@@ -11,6 +11,10 @@ body {
   /* font-family: verdana, arial, sans-serif, helvetica; */
 }
 
+h1, p {
+  color: rgb(56, 53, 53);
+}
+
 .container {
   width: 810px;
   max-width: 100%;
